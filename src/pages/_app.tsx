@@ -1,8 +1,12 @@
 import { AppProps } from 'next/app';
-import 'src/styles/globals.css';
+import '@/styles/globals.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <div className="font-poppins">
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
 export default MyApp;

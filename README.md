@@ -22,7 +22,6 @@ npx create-next-app [project-name] -e https://github.com/Techmaker-Digital-Innov
 - [TailwindCSS](https://tailwindcss.com/)
 - [Absolute Import](https://nextjs.org/docs/advanced-features/module-path-aliases)
 - Linter
-  - [ESLint](https://eslint.org/)
   - [Prettier](https://prettier.io/)
 - Pre-Commit Linter
   - [Husky](https://typicode.github.io/husky/#/?id=automatic-recommended)
